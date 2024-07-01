@@ -5,6 +5,8 @@ body{
 .holder {
   display: flex;
 	flex: wrap;
+	align-items: center;
+	justify-content: center;
 }
 .item{
 	height: 100px;
