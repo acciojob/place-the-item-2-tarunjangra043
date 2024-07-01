@@ -2,24 +2,29 @@ body{
 	font-size: 30px;
 	box-sizing: border-box;
 }
+
 .holder {
   display: flex;
-	flex: nowrap;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 }
+
 .item{
 	height: 100px;
 	width: 100px;
 }
+
 .item1{
 	order:2;
 	background-color: red;
 }
+
 .item2{
 	order:3;
 	background-color: blue;
 }
+
 .item3{
 	order:1;
 	background-color: green;
