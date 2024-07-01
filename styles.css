@@ -4,6 +4,7 @@ body{
 }
 .holder {
   display: flex;
+	flex: wrap;
 }
 .item{
 	height: 100px;
