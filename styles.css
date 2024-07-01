@@ -4,7 +4,7 @@ body{
 }
 .holder {
   display: flex;
-	flex: wrap;
+	flex: nowrap;
 	align-items: center;
 	justify-content: center;
 }
